@@ -1,0 +1,8 @@
+{
+  "name": "nonprofit-embeddings-search",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/search.test.ts", "start": "tsx src/nonprofit_search.ts"},
+  "dependencies": {"openai": "^4.0.0", "tsx": "^4.0.0", "zod": "^3.0.0"},
+  "devDependencies": {"typescript": "^5.0.0"}
+}
